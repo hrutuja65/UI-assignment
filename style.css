@@ -349,3 +349,19 @@ text-align: center;
 .bg-gray{
     background-color:#343434
 }
+
+.topBar{
+    display:flex;
+}
+
+.bottomBar{
+    display:flex;
+}
+@media only screen and (max-width: 576px) {
+    .topBar{
+        display:none;
+    }
+    .bottomBar{
+        display:none!important;
+    }
+  }
