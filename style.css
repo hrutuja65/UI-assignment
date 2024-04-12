@@ -1,0 +1,373 @@
+.bg-lime{
+    background-color: #a4c639
+}
+
+.corner-20{
+    border-radius:20px;
+}
+
+.topBar{
+    height:40px;
+    color:white;
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+.carousel_wrapper{
+    position:relative;
+    /* width:100vw; */
+    height:100vh;
+   
+}
+
+.bottomBar{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    height: 80px;
+}
+
+.carousel_section{
+    height:calc(100vh - 120px);
+    background-image: url("./assets/images/service3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* opacity:0.9; */
+}
+
+.page_wrapper{
+    width:100%;
+    max-width:1920px;
+    margin:0 auto;
+}
+
+.services{
+   margin-top: 140px;
+}
+.service-item .down-content {
+    background-color: #f7f7f7;
+    padding: 30px;
+}
+p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 30px;
+}
+.service-item .down-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+h4{
+    margin: 0px;
+    font-family: inherit;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.service-item img{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+}
+.section-heading h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+a.filled-button {
+    background-color: #a4c639;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.section-heading em{
+    font-style: normal;
+    color: #a4c639;
+}
+.section-heading span{
+display: block;
+margin-top: 18px;
+text-transform: uppercase;
+font-size: 15px;
+color: #666;
+letter-spacing: 1px;
+}
+
+.backdrop{
+    position: relative;
+    width:100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+}
+
+.text-container{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+/* .navbar{
+    background-color: #9dc209;
+    color: aliceblue;
+}
+*{
+    text-decoration: none;
+}
+.navdiv{
+align-items: center;
+display: flex;
+justify-content: space-between;
+} */
+/* button{
+    background-color: #9dc209;
+    border: 2px solid whitesmoke;
+  border-radius: 12px;
+  padding: 5px; 
+  margin-right: 100px;
+  text-emphasis-color: white;
+} */
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+}
+.h4{
+    color: grey;
+    font-family: inherit;
+}
+.card-img-top{
+    height: 180px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.first{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+   overflow: hidden;
+   margin: 20px;
+   background-color: aliceblue;
+}
+.card-img-top{
+width: 100%;
+
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h4{
+    font-size: 28px;
+    margin-bottom: 8px;
+
+}
+button{
+    background-color:#9dc209;
+    color: aliceblue;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.text-green{
+    color:#9dc209 ;
+}
+.solution{
+    height: 100vh;
+    background-image: url("https://imageio.forbes.com/blogs-images/chuckcohn/files/2017/05/Internal-business-meeting.jpg?format=jpg&height=600&width=1200&fit=bounds");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position:relative;
+}
+.solution-content{
+    max-width: 351px;
+    color: white;
+    position: relative;
+}
+.btn{
+  border-radius: 12px;
+  padding: 5px;
+}
+.span-col{
+    color: #9dc209;
+}
+.growth{
+    color: #9dc209;
+}
+.statbox{
+padding: 30px;
+background-color: rgba(0,0,0,0.5);
+width: 40%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+.statwrapper{
+    width:100%;
+    max-width: 415px;
+    position: relative;
+}
+.h6{
+    color: white;
+}
+
+.solution_backdrop{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.company{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+padding:0px 10%;
+}
+
+.w-50{
+    width:50%
+}
+
+.company div img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.GREATEST-CLIENTS{
+    height: 100vh;
+    text-align: center;
+    background-color:#f6f6f6;
+}
+.request{
+    height: 100vh;
+    text-align: center;
+}
+.form{
+    background-color: #9dc209;
+    padding:40px;
+}
+.text-light{
+align-items: center;
+}
+.solutions-growth{
+    margin-top: 140px;
+    background-image: url("./assets/images/fun-facts-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 140px 0px;
+    color: #fff;
+}
+.solutions-growth span {
+    text-transform: uppercase;
+    font-size: 15px;
+    /* color: #fff; */
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+.solutions-growth left-content {
+    margin-right: 45px;
+}
+.solutions-growth h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.count-area-content {
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.1);
+    /* background-color: black; */
+    padding: 25px 30px 35px 30px;
+    margin: 15px 0px;
+}
+.count-digit {
+    margin: 5px 0px;
+    color: #a4c639;
+    font-weight: 700;
+    font-size: 36px;}
+.count-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 0.5px}
+         .more-info {
+            margin-top: 140px;
+        }
+.more-info .more-info-content {
+            background-color: #f7f7f7;
+            -webkit-font-smoothing: antialiased;
+            box-sizing: border-box;
+        }
+ .more-info .left-image img {
+            width: 100%;
+        }
+ img {
+            vertical-align: middle;
+            border-style: none;
+            object-fit: cover;
+        }
+.inner-content{
+    padding: 0 15%;
+text-align: center;
+}
+
+.about{
+    padding:140px 0px;
+    background-color:#f7f7f7;
+}
+.heading{
+    text-align: center;
+}
+.form-content {
+    background-color: #a4c639;
+    padding: 60px;
+    border-radius: 5px;
+    text-align: center;
+}
+.border-button{
+    border: #f6f6f6;
+    border-radius: 25px;
+}
+.callback-form{
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.bg-gray{
+    background-color:#343434
+}
